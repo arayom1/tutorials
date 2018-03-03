@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <script src="jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <table>
+            <tr>
+                <td><input type="text" id="addInput1"></td> <td>+</td>
+                <td><input type="text" id="addInput2"></td>
+                <td><button onclick="add()">=</button></td>
+                <td><input type="text" id="addOutput" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="subInput1"></td> <td>-</td>
+                <td><input type="text" id="subInput2"></td> 
+                <td><button onclick="subtract()">=</button></td>
+                <td><input type="text" id="subOutput" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="multInput1"></td> <td>*</td>
+                <td><input type="text" id="multInput2"></td> 
+                <td><button onclick="multiply()">=</button></td>
+                <td><input type="text" id="multOutput" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="divInput1"></td> <td>/</td>
+                <td><input type="text" id="divInput2"></td> 
+                <td><button onclick="divide()">=</button></td>
+                <td><input type="text" id="divOutput" readonly></td>
+            </tr>
+        </table>
+    </body>
+    
+
+</html>
